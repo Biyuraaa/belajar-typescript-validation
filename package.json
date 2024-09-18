@@ -1,0 +1,32 @@
+{
+  "name": "belajar-typescript-validation",
+  "version": "1.0.0",
+  "description": "Belajar TypeScript Validation",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
+  "author": "M Bimo Bayu Bagaskara",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "@babel/preset-typescript": "^7.15.0",
+    "@babel/register": "^7.14.5",
+    "@jest/globals": "^29.7.0",
+    "@types/jest": "^27.0.1",
+    "babel-jest": "^27.0.6",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.3",
+    "typescript": "^4.3.5"
+  },
+  "type": "module",
+  "dependencies": {
+    "zod": "^3.23.8"
+  }
+}
